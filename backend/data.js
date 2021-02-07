@@ -8,37 +8,41 @@ export default{
             price: 1450,
             brand: 'Top-Ten',
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
         {
             _id:'2',
-            name: 'Fit Shirt',
+            name: 'T Shirt',
             category: 'Shirts',
-            image: '/images/s2.jpg',
-            price: 1450,
+            image: '/images/tsv1.jpg',
+            price: 850,
             brand: 'Top-Ten',
             rating: 4.5,
-            numReviews: 9
+            numReviews: 9,
+            countInStock: 6,
         },
         {
             _id:'3',
-            name: 'Pants',
+            name: 'Jeans Pants',
             category: 'Pants',
-            image: '/images/s2.jpg',
+            image: '/images/jp2.jpg',
             price: 1999,
             brand: 'Top-Ten',
             rating: 4.5,
-            numReviews: 8
+            numReviews: 8,
+            countInStock: 0,
         },
         {
             _id:'4',
             name: 'Gabardine pants',
             category: 'Pants',
-            image: '/images/s2.jpg',
+            image: '/images/gp1.jpg',
             price: 1299,
             brand: 'Top-Ten',
             rating: 4,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },   
     ]
 }
